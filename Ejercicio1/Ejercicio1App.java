@@ -9,30 +9,15 @@ public class Ejercicio1App {
 		Persona persona3 = new Persona();
 		
 		//Persona1 llamamos con los gets
-		System.out.println(persona1.getNom());
-		System.out.println(persona1.getEdat());
-		System.out.println(persona1.getNif());
-		System.out.println(persona2.getSexo());
-		System.out.println(persona1.getPeso());
-		System.out.println(persona1.getAltura());
+		System.out.println(persona1.toString());
 		
 		System.out.println("-----------------");
 		//Persona 2 llamamos con los gets
-		System.out.println(persona2.getNom());
-		System.out.println(persona2.getEdat());
-		System.out.println(persona2.getNif());
-		System.out.println(persona2.getSexo());
-		System.out.println(persona2.getPeso());
-		System.out.println(persona2.getAltura());
+		System.out.println(persona2.toString());;
 		
 		System.out.println("-----------------");
 		//Persona 3 llamamos a los valores por defecto
-		System.out.println(persona3.getNom());
-		System.out.println(persona3.getEdat());
-		System.out.println(persona3.getNif());
-		System.out.println(persona3.getSexo());
-		System.out.println(persona3.getPeso());
-		System.out.println(persona3.getAltura());
+		System.out.println(persona3.toString());
 	}
 
 }

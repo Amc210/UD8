@@ -38,6 +38,13 @@ public class Electrodomestico {
 		this.peso = PESO;
 	}
 	
+	//toString
+	@Override
+	public String toString() {
+		return "precioBase = " + precioBase + ", color = " + color + ", consumo = " + consumo + ", peso = "
+				+ peso;
+	}
+
 	//Comprovamos las opciones de color
 	public static String comprovarColor (String color) {
 		color = color.toLowerCase();

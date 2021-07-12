@@ -34,6 +34,12 @@ public class Serie {
 		this.creador = creador;
 	}
 	
+	//toString
+	@Override
+	public String toString() {
+		return "titulo=" + titulo + ", Nº Temporadas=" + nTemporadas + ", entregado=" + entregado + ", genero="
+				+ genero + ", creador=" + creador;
+	}
 	//Getters y setters
 	public String getTitulo() {
 		return titulo;

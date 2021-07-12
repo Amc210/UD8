@@ -1,6 +1,7 @@
 package Ejercicio1;
 
 public class Persona {
+	
 	private String nom;
 	private int edat;
 	private String nif;
@@ -15,6 +16,7 @@ public class Persona {
 	public Persona() {
 		this.nom = " ";
 		this.edat = 0;
+		this.nif = "";
 		this.sexo = SEXO;
 		this.peso = 0.0;
 		this.altura = 0.0;
@@ -28,7 +30,12 @@ public class Persona {
 		this.peso = peso;
 		this.altura = altura;
 	}
-	
+	//toString
+	@Override
+	public String toString() {
+		return "nombre = " + nom + ", edat = " + edat + ", nif = " + nif + ", sexo = " + sexo + ", peso = " + peso
+				+ ", altura=" + altura + ", sexo = " + SEXO;
+	}
 	//Gets i sets
 	public String getNom() {
 		return nom;

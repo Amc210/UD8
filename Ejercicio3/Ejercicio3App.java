@@ -10,10 +10,10 @@ public class Ejercicio3App {
 		Electrodomestico ejemplo4 = new Electrodomestico (550,"morado","e",140);
 		
 		//Getts de prueba
-		System.out.println("Ejemplo 1: " + ejemplo1.getConsumo());
-		System.out.println("Ejemplo 2: " + ejemplo2.getColor());
-		System.out.println("Ejemplo 3: " + ejemplo3.getPrecioBase());
-		System.out.println("Ejemplo 4: " + ejemplo4.getColor());
+		System.out.println("Ejemplo 1: " + ejemplo1.toString());
+		System.out.println("Ejemplo 2: " + ejemplo2.toString());
+		System.out.println("Ejemplo 3: " + ejemplo3.toString());
+		System.out.println("Ejemplo 4: " + ejemplo4.toString());
 	}
 
 }

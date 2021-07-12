@@ -9,9 +9,9 @@ public class Ejercicio4App {
 		Serie ejemplo3 = new Serie ("Shin Chan", " Yoshito Usui");
 		
 		//mostramos
-		System.out.println("Ejemplo 1: " + ejemplo1.getTitulo());
-		System.out.println("Ejemplo 2: " + ejemplo2.isEntregado());
-		System.out.println("Ejemplo 3: " + ejemplo3.getCreador());
+		System.out.println("Ejemplo 1: " + ejemplo1.toString());
+		System.out.println("Ejemplo 2: " + ejemplo2.toString());
+		System.out.println("Ejemplo 3: " + ejemplo3.toString());
 	}
 
 }
